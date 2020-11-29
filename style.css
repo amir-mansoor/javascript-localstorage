@@ -1,0 +1,67 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	background-image: url("Coading-img.jpg");
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: grid;
+	place-items: center;	
+}
+
+.wrapper .background-white {
+	background-image: url("wallpaper.png");
+	background-size: cover;
+	padding: 20px;
+	font-family: sans-serif;
+	border-radius: 4px;
+	height: 50vh;
+	overflow: auto;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 100;
+}
+
+ul {
+	list-style: none;
+	margin-bottom: 30px;
+	font-weight: 500;
+	display: flex;
+	flex-direction: column;
+}
+
+.plates {
+	padding: 10px;
+}
+
+.plates li {
+	margin-top: 6px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.plates li input {
+	border-right: 1px solid rgba(0,0,0,0.2);
+	margin: 1px 10px 14px 0px;
+}
+
+.add-items input {
+	border: none;
+	padding: 10px;
+	transition: 0.4s;
+}
+
+
+input[type="submit"]:hover {
+	color: black;
+	cursor: pointer;
+	font-weight: 400;
+}
+
